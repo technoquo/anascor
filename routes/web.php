@@ -21,6 +21,20 @@ Route::get('/historia', function () {
     return view('history');
 });
 
+Route::get('/mision', function () {
+    return view('mision');
+});
+
+Route::get('/vision', function () {
+    return view('vision');
+});
+
+
+Route::get('/valores', function () {
+    return view('valores');
+});
+
+
 Route::get('/comisiones', function () {
     return view('comisiones');
 });
@@ -61,4 +75,12 @@ Route::get('/academias', function () {
 
 Route::get('/convenios', function () {
     return view('menus.convenios');
+});
+
+Route::get('/noticia', function () {
+    return view('new');
+});
+
+Route::get('/noticias', function () {
+    return view('news');
 });

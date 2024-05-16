@@ -26,9 +26,9 @@
                 <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
                     <div
                         class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-                        <a href="#">Misión <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Visión <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Nuestros valores <span aria-hidden="true">&rarr;</span></a>
+                        <a href="/mision">Misión <span aria-hidden="true">&rarr;</span></a>
+                        <a href="/vision">Visión <span aria-hidden="true">&rarr;</span></a>
+                        <a href="/valores">Nuestros valores <span aria-hidden="true">&rarr;</span></a>
                         <a href="/junta-directiva">Conozca nuestra Junta Directiva <span
                                 aria-hidden="true">&rarr;</span></a>
                     </div>
@@ -62,7 +62,7 @@
                     <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
-                    <a href="#">
+                    <a href="/noticia">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Declaración de los
                             Derechos de la Infancia Sorda</h5>
                     </a>
@@ -72,11 +72,11 @@
             </div>
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
-                <a href="#">
+                <a href="/noticia">
                     <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
-                    <a href="#">
+                    <a href="/noticia">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ANIVERSARIO 50 -
                             ANASCOR</h5>
                     </a>
@@ -86,11 +86,11 @@
             </div>
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
-                <a href="#">
+                <a href="/noticia">
                     <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
-                    <a href="#">
+                    <a href="/noticia">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sordos piden
                             diálogo al MEP por el cierre de SESA</h5>
                     </a>
@@ -99,11 +99,11 @@
             </div>
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
-                <a href="#">
+                <a href="/noticia">
                     <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
-                    <a href="#">
+                    <a href="/noticia">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Asamblea Ordinaria
                         </h5>
                     </a>
@@ -115,7 +115,7 @@
         </div>
         <div class="flex justify-center">
             <div>
-                <a href="#"
+                <a href="/noticias"
                     class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Ver
                     mas noticias</a>
             </div>

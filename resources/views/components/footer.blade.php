@@ -2,7 +2,7 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
-                <a href="*/" class="flex items-center">
+                <a href="/" class="flex items-center">
                     <img src="{{ asset('img/anascor.jpg') }}" class="w-[150px]" alt="ANASCOR Logo" />
                     <span
                         class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white relative ml-6">ANASCOR</span>
