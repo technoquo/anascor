@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('home', ["title" => 'Asociacion Nacional de Sordos de Costa Rica']);
 });
 
-Route::get('/historia', function () {
-    return view('history');
+Route::get('/quienes', function () {
+    return view('quienes');
 });
 
 Route::get('/mision', function () {
@@ -35,7 +35,7 @@ Route::get('/valores', function () {
 });
 
 
-Route::get('/comisiones', function () {
+Route::get('/comites', function () {
     return view('comisiones');
 });
 
@@ -52,20 +52,24 @@ Route::get('/servicios', function () {
     return view('menus.service');
 });
 
-Route::get('/galleria', function () {
-    return view('menus.gallery');
+// Route::get('/galleria', function () {
+//     return view('menus.gallery');
+// });
+
+Route::get('/expresidentes', function () {
+    return view('menus.expresidentes');
 });
 
-Route::get('/estatutos', function () {
-    return view('menus.estatutos');
+Route::get('/estructura', function () {
+    return view('menus.estructura');
 });
 
 Route::get('/acceso', function () {
     return view('menus.asociados');
 });
 
-Route::get('/aniversario', function () {
-    return view('menus.aniversario');
+Route::get('/historia', function () {
+    return view('menus.historia');
 });
 
 
