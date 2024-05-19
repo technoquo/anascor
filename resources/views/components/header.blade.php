@@ -1,7 +1,7 @@
 <nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="{{ asset('img/anascor.jpg') }}" class=" w-[160px]" alt="Flowbite Logo" />
+            <img src="{{ asset('img/anascor.png') }}" class="w-[160px] dark:bg-white rounded-md" alt="Logo de ANASCOR" />
             <span
                 class="self-center  font-semibold whitespace-nowrap dark:text-white text-2xl hidden md:block">Asociación
                 Nacional de

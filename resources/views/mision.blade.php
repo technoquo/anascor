@@ -12,14 +12,12 @@
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-            <p class="text-gray-500 dark:text-gray-400 mt-9">Fugiat nisi dolore fugiat deserunt est eu pariatur duis officia
-                est
-                sint eiusmod labore incididunt. Amet et excepteur eiusmod est anim proident. Voluptate laboris ad eu sint
-                officia ex mollit dolore tempor. Nostrud voluptate officia nostrud proident velit commodo quis officia
-                adipisicing elit officia reprehenderit irure. Sint veniam quis veniam culpa occaecat. Aliquip do et est sint
-                ex duis ipsum non laborum fugiat id magna non est. Nulla aliquip incididunt consectetur Lorem et incididunt
-                sunt commodo proident Lorem nulla tempor tempor.</p>
+            <p class="text-gray-500 dark:text-gray-400 mt-9">Promueve los derechos humanos de las personas sordas,
+                sordociegas y con pérdida auditiva por medio de la cooperación con instituciones, campañas, promoción del
+                empleo y otros mecanismos de exigibilidad de derechos con excelencia, respeto, responsabilidad y
+                comprensión.</p>
 
         </div>
+        <x-boton />
     @endsection
 </x-layout>

@@ -3,7 +3,8 @@
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="/" class="flex items-center">
-                    <img src="{{ asset('img/anascor.jpg') }}" class="w-[150px]" alt="ANASCOR Logo" />
+                    <img src="{{ asset('img/anascor.png') }}" class="w-[160px] dark:bg-white rounded-md"
+                        alt="Logo de ANASCOR" />
                     <span
                         class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white relative ml-6">ANASCOR</span>
                 </a>

@@ -13,10 +13,9 @@
                             <img class="rounded-lg" widht="100%"" src="{{ asset('img/fernando.png') }}"
                                 alt="Fernando
                                 Zuñiga">
-
                         </figure>
 
-                        <h3 class="text-sm font-semibold text-gray-900 dark:text-white w-6">Fernando
+                        <h3 class="text-sm font-semibold text-gray-900 dark:text-white">Fernando
                             Zuñiga</h3>
                         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">1980
                             -
@@ -78,7 +77,7 @@
                 <li class="relative mb-6 sm:mb-0">
                     <div class="mt-3 sm:pe-8">
                         <figure class="max-w-lg">
-                            <img class="rounded-lg" widht="100%"" src="{{ asset('img/nulo.png') }}"
+                            <img class="rounded-lg" widht="100%"" src="{{ asset('img/juanpablo.png') }}"
                                 alt="Juan Pablo Salgado Figueroa">
 
                         </figure>
@@ -105,7 +104,7 @@
                 <li class="relative mb-6 sm:mb-0">
                     <div class="mt-3 sm:pe-8">
                         <figure class="max-w-lg">
-                            <img class="rounded-lg" widht="100%"" src="{{ asset('img/nulo.png') }}"
+                            <img class="rounded-lg" widht="100%"" src="{{ asset('img/gerardo.jpg') }}"
                                 alt="Gerardo Enrique
                                 Carrillo Naranjo">
 
