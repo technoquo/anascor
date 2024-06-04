@@ -70,7 +70,11 @@
                 <div class="p-5">
                     <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">FERNANDO ZUÑIGA
                         CRESPI</h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">??????????????????????????????????</p>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ha sido presidente de ANASCOR en más de 12
+                        ocasiones. Se ha destacado por su dedicación para mantener unida a la comunidad sorda y por buscar
+                        constantemente soluciones en beneficio de las personas sordas. Su compromiso ha sido fundamental
+                        para mantener viva la asociación, y ha demostrado una disposición constante para mejorar y
+                        fortalecerla según las necesidades.</p>
                 </div>
             </div>
             <div

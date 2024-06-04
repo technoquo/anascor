@@ -54,11 +54,11 @@
         <div
             class="grid max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
             <ul class="hidden mb-4 space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
-                <li>
+                {{-- <li>
                     <a href="/servicios" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Servicios
                     </a>
-                </li>
+                </li> --}}
                 <li>
                     <a href="/expresidentes" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Ex-presidentes de ANASCOR: Liderazgo que deja huella
@@ -70,17 +70,18 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/acceso" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                        Acceso de Asociado
-                    </a>
-                </li>
-            </ul>
-            <ul class="hidden mb-4 space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
-                <li>
                     <a href="https://wfdeaf.org/" target="_blank"
                         class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Federación Mundial de Sordos
                     </a>
+                    {{-- <li>
+                    <a href="/acceso" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                        Acceso de Asociado
+                    </a>
+                </li> --}}
+            </ul>
+            <ul class="hidden mb-4 space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
+
                 </li>
                 <li>
                     <a href="/historia" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
