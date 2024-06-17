@@ -3,7 +3,7 @@
     @section('content')
         <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
             <img src="{{ asset('img/traspasoanascor.jpg') }}" alt="anascor"
-                class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center brightness-50">
+                class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center brightness-[.25]">
             <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
                 aria-hidden="true">
                 <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
@@ -55,15 +55,40 @@
             </div>
         </div>
 
+
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                <h1
+                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    Anniversario ANASCOR</h1>
+                <p class="mb-8  text-lg font-normal text-gray-500 lg:text-6xl sm:px-16 lg:px-48 dark:text-gray-400">1974-
+                    2024
+                </p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                    <a href="/galleria"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        Ver Galería de Fotos
+                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+
         <div class="md:flex justify-center py-6 px-5 gap-4 ">
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
                 <blockquote class="instagram-media" data-instgrm-captioned
-                    data-instgrm-permalink="https://www.instagram.com/reel/C7u4HFZROvO/?utm_source=ig_embed&amp;utm_campaign=loading"
+                    data-instgrm-permalink="https://www.instagram.com/p/C8E-SN3uz8K/?utm_source=ig_embed&amp;utm_campaign=loading"
                     data-instgrm-version="14"
                     style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     <div style="padding:16px;"> <a
-                            href="https://www.instagram.com/reel/C7u4HFZROvO/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            href="https://www.instagram.com/p/C8E-SN3uz8K/?utm_source=ig_embed&amp;utm_campaign=loading"
                             style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
                             target="_blank">
                             <div style=" display: flex; flex-direction: row; align-items: center;">
@@ -143,23 +168,21 @@
                         </a>
                         <p
                             style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-                            <a href="https://www.instagram.com/reel/C7u4HFZROvO/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            <a href="https://www.instagram.com/p/C8E-SN3uz8K/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
-                                target="_blank">A post shared by ANASCOR Costa Rica (@anascor74)</a>
+                                target="_blank">A post shared by Centro Integral de LESCO (@cilesco)</a>
                         </p>
                     </div>
                 </blockquote>
-
-
             </div>
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
-                <blockquote class="instagram-media"
-                    data-instgrm-permalink="https://www.instagram.com/p/C7xSheGRFlY/?utm_source=ig_embed&amp;utm_campaign=loading"
+                <blockquote class="instagram-media" data-instgrm-captioned
+                    data-instgrm-permalink="https://www.instagram.com/p/C8C1gEeR6es/?utm_source=ig_embed&amp;utm_campaign=loading"
                     data-instgrm-version="14"
                     style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     <div style="padding:16px;"> <a
-                            href="https://www.instagram.com/p/C7xSheGRFlY/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            href="https://www.instagram.com/p/C8C1gEeR6es/?utm_source=ig_embed&amp;utm_campaign=loading"
                             style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
                             target="_blank">
                             <div style=" display: flex; flex-direction: row; align-items: center;">
@@ -239,12 +262,13 @@
                         </a>
                         <p
                             style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-                            <a href="https://www.instagram.com/p/C7xSheGRFlY/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            <a href="https://www.instagram.com/p/C8C1gEeR6es/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
-                                target="_blank">A post shared by ANASCOR Costa Rica (@anascor74)</a>
+                                target="_blank">A post shared by Centro Integral de LESCO (@cilesco)</a>
                         </p>
                     </div>
                 </blockquote>
+
 
             </div>
             <div

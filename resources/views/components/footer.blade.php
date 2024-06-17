@@ -9,12 +9,30 @@
                         class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white relative ml-6">ANASCOR</span>
                 </a>
             </div>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Páginas</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="/expresidentes" class="hover:underline">Lidezazgo que deja huella</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="/estructura" class="hover:underline">Estructura de ANASCOR</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="/historia" class="hover:underline">Historia de ANASCOR</a>
+                        </li>
+
+                    </ul>
+                </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Recursos</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Acerca</a>
+                            <a href="/academias" class="hover:underline">Academias de LESCO</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="/convenios" class="hover:underline">Convenios de LESCO</a>
                         </li>
                         <li>
                             <a href="/contacto" class="hover:underline">Contacto</a>
@@ -35,7 +53,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                {{-- <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
@@ -46,7 +64,7 @@
                                 Términos y condiciones </a>
                         </li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
