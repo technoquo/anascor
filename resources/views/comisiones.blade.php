@@ -14,7 +14,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de LESCO
+                                Comité de LESCO
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Juvenil Sordos
+                                Comité de Juvenil Sordos
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Mujeres Sordas
+                                Comité de Mujeres Sordas
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Información
+                                Comité de Información
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Comité de Deportes
+                                Comité de Comité de Deportes
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Salud
+                                Comité de Salud
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Diversidad
+                                Comité de Diversidad
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Intérpretes
+                                Comité de Intérpretes
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Tercera Edad
+                                Comité de Tercera Edad
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de HOPAS
+                                Comité de HOPAS
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Cómite de Cultura y Educación
+                                Comité de Cultura y Educación
                         </div>
                     </div>
                 </div>
