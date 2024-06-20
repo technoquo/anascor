@@ -58,5 +58,8 @@
             </div>
 
         </div>
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <hr class="mx-auto my-6 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        </div>
     @endsection
 </x-layout>
