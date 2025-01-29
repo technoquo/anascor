@@ -46,7 +46,7 @@
                     <div class="mt-3 sm:pe-8">
 
                         <figure class="max-w-lg">
-                            <img class="rounded-lg" widht="100%"" src="{{ asset('img/nulo.png') }}"
+                            <img class="rounded-lg" widht="100%" src="{{ asset('img/ronald.jpg') }}"
                                 alt="Ronald Arturo Carvajal Pérez">
 
                         </figure>

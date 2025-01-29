@@ -61,23 +61,29 @@
                     </li>
                     <li>
                         <div class="flex items-center gap-x-6 mb-6">
+<<<<<<< HEAD
+                            <img class="w-1/2 rounded-full" src="{{ asset('img/milena.jpg') }}" alt="">
+                            <div class="ml-1">
+                                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Milena Abarca
+                                </h3>
+=======
                             <img class="w-1/2 rounded-full" src="{{ asset('img/user.png') }}" alt="">
                             <div class="ml-1">
                                 <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Josué Palma</h3>
+>>>>>>> origin/main
                                 <p class="text-sm font-semibold leading-6 text-indigo-600">Vocal 2</p>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="flex items-center gap-x-6 mb-6">
-                            <img class="w-1/2 rounded-full" src="{{ asset('img/milena.jpg') }}" alt="">
+                            <img class="w-1/2 rounded-full" src="{{ asset('img/user.png') }}" alt="">
                             <div class="ml-1">
-                                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Milena Abarca
-                                </h3>
+                                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Josué Palma</h3>
                                 <p class="text-sm font-semibold leading-6 text-indigo-600">Vocal 3</p>
                             </div>
                         </div>
-                    </li>
+                    </li>                   
                     <li>
                         <div class="flex items-center gap-x-6 mb-6">
                             <img class="w-1/2 rounded-full" src="{{ asset('img/luisdiego.jpg') }}" alt="">
