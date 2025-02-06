@@ -100,7 +100,7 @@
                 </li>
             </ul>
 
-            <a href="#"
+            {{-- <a href="#"
                 class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light dark:hover:bg-blend-darken"
                 style="background-image: url(/docs/images/dashboard-overview.png)">
                 <p class="max-w-xl mb-5 font-extrabold leading-tight tracking-tight text-white">Ver video en LESCO</p>
@@ -109,7 +109,7 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
-            </a>
+            </a> --}}
         </div>
     </div>
 </nav>
