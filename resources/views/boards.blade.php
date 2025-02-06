@@ -94,7 +94,7 @@
                             <div class="ml-1">
                                 <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Carlos Gutiérrez
                                 </h3>
-                                <p class="text-sm font-semibold leading-6 text-indigo-600">SuplenteFiscal</p>
+                                <p class="text-sm font-semibold leading-6 text-indigo-600">Suplente Fiscal</p>
                             </div>
                         </div>
                     </li>
