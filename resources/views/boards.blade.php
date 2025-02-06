@@ -88,6 +88,16 @@
                             </div>
                         </div>
                     </li>
+                    <li>
+                        <div class="flex items-center gap-x-6 mb-6">
+                            <img class="w-1/2 rounded-full" src="{{ asset('img/carlosgutierrez.jpg') }}" alt="">
+                            <div class="ml-1">
+                                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Carlos Gutiérrez
+                                </h3>
+                                <p class="text-sm font-semibold leading-6 text-indigo-600">SuplenteFiscal</p>
+                            </div>
+                        </div>
+                    </li>
                     <!-- Additional <li> elements with the same structure -->
                 </ul>
             </div>
