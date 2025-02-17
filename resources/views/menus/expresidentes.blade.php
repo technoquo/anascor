@@ -3,8 +3,8 @@
         <div class="md:flex justify-center mb-10">
             <h1 class="font-bold text-3xl dark:text-white">Ex Presidentes de la Asocación</h1>
         </div>
-        <div class="md:flex flex-col justify-center dark:text-white">
-            <ol class="justify-center md:flex items-center sm:flex space-x-3">
+        <div class="dark:text-white">
+            <ol class="flex md:flex-row flex-col justify-center md:flex items-center sm:flex space-x-3">
                 <li class="relative mb-6 sm:mb-0">
 
                     <div class="mt-3 sm:pe-8">
@@ -73,7 +73,7 @@
                     </div>
                 </li>
             </ol>
-            <ol class="justify-center md:flex items-center sm:flex space-x-3">
+            <ol class="flex md:flex-row flex-col justify-center md:flex items-center sm:flex space-x-3">
                 <li class="relative mb-6 sm:mb-0">
                     <div class="mt-3 sm:pe-8">
                         <figure class="max-w-lg">

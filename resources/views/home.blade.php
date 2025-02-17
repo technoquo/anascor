@@ -1,94 +1,119 @@
 <x-layout>
     @section('title', 'Asociacion Nacional de Sordos de Costa Rica')
     @section('content')
-        <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-            <img src="{{ asset('img/traspasoanascor.jpg') }}" alt="anascor"
-                class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center brightness-[.25]">
-            <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
-                aria-hidden="true">
-                <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
-                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-                </div>
-            </div>
-            <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
-                aria-hidden="true">
-                <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
-                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-                </div>
-            </div>
-            <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                {{-- <div class="mx-auto max-w-2xl lg:mx-0">
-                    <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">¡Conoce nuestra lucha por los
-                        derechos de las personas sordas en Costa Rica!</h2>
-                    <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                        irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-                </div> --}}
-                <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-                    <div
-                        class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-                        <a href="/mision">Misión <span aria-hidden="true">&rarr;</span></a>
-                        <a href="/vision">Visión <span aria-hidden="true">&rarr;</span></a>
-                        <a href="/valores">Nuestros valores <span aria-hidden="true">&rarr;</span></a>
-                        <a href="/junta-directiva">Conozca nuestra Junta Directiva <span
-                                aria-hidden="true">&rarr;</span></a>
-                    </div>
-                    <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-                        {{-- <div class="flex flex-col-reverse">
-                            <dt class="text-base leading-7 text-gray-300">Asocaciones de Sordos</dt>
-                            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
-                        </div> --}}
-                        <div class="flex flex-col-reverse">
-                            <dt class="text-base leading-7 text-gray-300">Poblacion Sorda</dt>
-                            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">90.000+</dd>
-                        </div>
-                        <div class="flex flex-col-reverse">
-                            <dt class="text-base leading-7 text-gray-300">Afiliado FMS</dt>
-                            <dd class="text-2xl font-bold leading-9 tracking-tight text-white"><img
-                                    src="{{ asset('img/fms.png') }}" alt="FMS" class="w-40"></dd>
-                        </div>
-                        {{-- <div class="flex flex-col-reverse">
-                <dt class="text-base leading-7 text-gray-300">Paid time off</dt>
-                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Unlimited</dd>
-              </div> --}}
-                    </dl>
-                </div>
+    <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+        <img src="{{ asset('img/traspasoanascor.jpg') }}" alt="anascor"
+            class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center brightness-[.25]">
+        <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
+            aria-hidden="true">
+            <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
             </div>
         </div>
+        <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
+            aria-hidden="true">
+            <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+            </div>
+        </div>
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            {{-- <div class="mx-auto max-w-2xl lg:mx-0">
+                <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">¡Conoce nuestra lucha por los
+                    derechos de las personas sordas en Costa Rica!</h2>
+                <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui
+                    irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+            </div> --}}
+            <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+                <div
+                    class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+                    <a href="/mision">Misión <span aria-hidden="true">&rarr;</span></a>
+                    <a href="/vision">Visión <span aria-hidden="true">&rarr;</span></a>
+                    <a href="/valores">Nuestros valores <span aria-hidden="true">&rarr;</span></a>
+                    <a href="/junta-directiva">Conozca nuestra Junta Directiva <span
+                            aria-hidden="true">&rarr;</span></a>
+                </div>
+                <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+                    {{-- <div class="flex flex-col-reverse">
+                        <dt class="text-base leading-7 text-gray-300">Asocaciones de Sordos</dt>
+                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
+                    </div> --}}
+                    <div class="flex flex-col-reverse">
+                        <dt class="text-base leading-7 text-gray-300">Poblacion Sorda</dt>
+                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">90.000+</dd>
+                    </div>
+                    <div class="flex flex-col-reverse">
+                        <dt class="text-base leading-7 text-gray-300">Afiliado FMS</dt>
+                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white"><img
+                                src="{{ asset('img/fms.png') }}" alt="FMS" class="w-40"></dd>
+                    </div>
+                    {{-- <div class="flex flex-col-reverse">
+                        <dt class="text-base leading-7 text-gray-300">Paid time off</dt>
+                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Unlimited</dd>
+                    </div> --}}
+                </dl>
+            </div>
+        </div>
+    </div>
 
+    <section class="bg-white dark:bg-gray-900 flex justify-center">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="max-w-screen-md">
+                <h2 class="mb-4 text-4xl lg:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Los
+                    informes de las Actividades de los Comités durante el mes de marzo 2024 - febrero 2025.</h2>
 
-        <section class="bg-white dark:bg-gray-900">
-            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-                <h1
-                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                    Anniversario ANASCOR</h1>
-                <p class="mb-8  text-lg font-normal text-gray-500 lg:text-6xl sm:px-16 lg:px-48 dark:text-gray-400">1974-
-                    2024
-                </p>
-                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                    <a href="/galleria"
+                <div class="flex justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+
+                    <a href="{{ asset('pdf/actividades.pdf') }}" target="_blank"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Ver Galería de Fotos
-                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        Descargar PDF
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                         </svg>
                     </a>
 
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+     <hr class="border border-gray-200  mb-8"></hr>
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+            <h1
+                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                Anniversario ANASCOR</h1>
+            <p class="mb-8  text-lg font-normal text-gray-500 lg:text-6xl sm:px-16 lg:px-48 dark:text-gray-400">1974-
+                2024
+            </p>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                <a href="/galleria"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    Ver Galería de Fotos
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
 
+            </div>
+        </div>
+    </section>
+    <hr class="border border-gray-200 mb-8"></hr>
+    <section class="bg-white dark:bg-gray-900">
+        <h2 class="mb-4 text-4xl lg:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Actividades</h2>
         <div class="md:flex justify-center py-6 px-5 gap-4 ">
+            
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
                 <blockquote class="instagram-media" data-instgrm-captioned
-                    data-instgrm-permalink="https://www.instagram.com/p/C8E-SN3uz8K/?utm_source=ig_embed&amp;utm_campaign=loading"
+                    data-instgrm-permalink="https://www.instagram.com/p/DF9V6HJt5Jj/?utm_source=ig_embed&amp;utm_campaign=loading"
                     data-instgrm-version="14"
                     style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     <div style="padding:16px;"> <a
-                            href="https://www.instagram.com/p/C8E-SN3uz8K/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            href="https://www.instagram.com/p/DF9V6HJt5Jj/?utm_source=ig_embed&amp;utm_campaign=loading"
                             style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
                             target="_blank">
                             <div style=" display: flex; flex-direction: row; align-items: center;">
@@ -178,11 +203,11 @@
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
                 <blockquote class="instagram-media" data-instgrm-captioned
-                    data-instgrm-permalink="https://www.instagram.com/p/C8C1gEeR6es/?utm_source=ig_embed&amp;utm_campaign=loading"
+                    data-instgrm-permalink="https://www.instagram.com/p/DF6SoYxMR9j/?utm_source=ig_embed&amp;utm_campaign=loading"
                     data-instgrm-version="14"
                     style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     <div style="padding:16px;"> <a
-                            href="https://www.instagram.com/p/C8C1gEeR6es/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            href="https://www.instagram.com/p/DF6SoYxMR9j/?utm_source=ig_embed&amp;utm_campaign=loading"
                             style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
                             target="_blank">
                             <div style=" display: flex; flex-direction: row; align-items: center;">
@@ -200,8 +225,8 @@
                             </div>
                             <div style="padding: 19% 0;"></div>
                             <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px"
-                                    height="50px" viewBox="0 0 60 60" version="1.1"
-                                    xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                    height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                    xmlns:xlink="https://www.w3.org/1999/xlink">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                         <g transform="translate(-511.000000, -20.000000)" fill="#000000">
                                             <g>
@@ -274,11 +299,11 @@
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
                 <blockquote class="instagram-media" data-instgrm-captioned
-                    data-instgrm-permalink="https://www.instagram.com/p/C7w3CzcxOiG/?utm_source=ig_embed&amp;utm_campaign=loading"
+                    data-instgrm-permalink="https://www.instagram.com/p/DFjt_oit0cm/?utm_source=ig_embed&amp;utm_campaign=loading"
                     data-instgrm-version="14"
                     style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     <div style="padding:16px;"> <a
-                            href="https://www.instagram.com/p/C7w3CzcxOiG/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            href="https://www.instagram.com/p/DFjt_oit0cm/?utm_source=ig_embed&amp;utm_campaign=loading"
                             style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
                             target="_blank">
                             <div style=" display: flex; flex-direction: row; align-items: center;">
@@ -296,8 +321,8 @@
                             </div>
                             <div style="padding: 19% 0;"></div>
                             <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px"
-                                    height="50px" viewBox="0 0 60 60" version="1.1"
-                                    xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                    height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                    xmlns:xlink="https://www.w3.org/1999/xlink">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                         <g transform="translate(-511.000000, -20.000000)" fill="#000000">
                                             <g>
@@ -369,11 +394,11 @@
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
                 <blockquote class="instagram-media" data-instgrm-captioned
-                    data-instgrm-permalink="https://www.instagram.com/reel/C7u4HFZROvO/?utm_source=ig_embed&amp;utm_campaign=loading"
+                    data-instgrm-permalink="https://www.instagram.com/p/DFYJO1FxZ6Y/?utm_source=ig_embed&amp;utm_campaign=loading"
                     data-instgrm-version="14"
                     style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     <div style="padding:16px;"> <a
-                            href="https://www.instagram.com/reel/C7u4HFZROvO/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            href="https://www.instagram.com/p/DFYJO1FxZ6Y/?utm_source=ig_embed&amp;utm_campaign=loading"
                             style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
                             target="_blank">
                             <div style=" display: flex; flex-direction: row; align-items: center;">
@@ -391,8 +416,8 @@
                             </div>
                             <div style="padding: 19% 0;"></div>
                             <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px"
-                                    height="50px" viewBox="0 0 60 60" version="1.1"
-                                    xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                    height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                    xmlns:xlink="https://www.w3.org/1999/xlink">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                         <g transform="translate(-511.000000, -20.000000)" fill="#000000">
                                             <g>
@@ -464,6 +489,10 @@
             </div>
 
         </div>
+    </setion>
+
+
+
 
     @endsection
 
