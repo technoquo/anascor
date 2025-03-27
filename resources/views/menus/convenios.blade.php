@@ -21,6 +21,14 @@
                                 alt="">
                         </a>
                     </div>
+                    <div>
+                        <a href="https://www.instagram.com/abilesco/" target="_blank">
+                            <img class="md:w-full w-1/2 h-auto rounded-lg"
+                                src="{{ asset('img/abilesco.png') }}"
+                                alt="">
+                        </a>
+                    </div>
+                  
                   
                 </div>
             </div>
