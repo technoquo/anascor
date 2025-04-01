@@ -50,7 +50,7 @@
                         </a>
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                                Comité de Información
+                                Comité de Informática
                         </div>
                     </div>
                 </div>
