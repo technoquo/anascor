@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
     content: [
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
@@ -14,6 +14,9 @@ export default {
             },
         },
     },
-    plugins: [require("flowbite/plugin"), require("@tailwindcss/forms")],
+    plugins: [
+        require("flowbite/plugin"),
+        require("@tailwindcss/forms"),
+    ],
     darkMode: "class",
 };
