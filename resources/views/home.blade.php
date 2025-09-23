@@ -134,6 +134,151 @@
             </div>
         </section>
         <hr class="border border-gray-200 mb-8"></hr>
+
+        <section class="bg-gray-100 dark:bg-gray-800">
+            <div class="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-20">
+                <h2 class="mb-6 text-4xl lg:text-6xl font-extrabold text-gray-900 dark:text-white">
+                    Día Internacional de las Personas Sordas
+                </h2>
+
+                <div class="max-w-3xl mx-auto text-lg text-gray-700 dark:text-gray-300 space-y-4 mb-10">
+                    <p>📣 <strong>¡Atención!</strong></p>
+                    <p>
+                        En el marco de la <strong>Semana Internacional de las Personas Sordas</strong> 🫶 queremos
+                        invitarles este
+                        <strong>viernes 26 de septiembre</strong> en <strong>ANASCOR</strong>.
+                    </p>
+                    <p>⏰ Iniciamos a la 1:00 p.m. y durante la tarde y noche tendremos:</p>
+                    <ul class="list-disc list-inside text-left">
+                        <li>🎲 Actividades de interacción y juegos</li>
+                        <li>🎬 Proyección de la película <em>El Silencio Natural</em></li>
+                        <li>💬 Mesa Redonda a cargo del Comité de LESCO</li>
+                    </ul>
+                    <p>🙌 ¡Vení y aprovechá esta oportunidad para aprender, compartir y disfrutar!</p>
+
+                    <p class="font-semibold">📍Ubicación:</p>
+                    <p>
+                        👉 <a href="https://maps.app.goo.gl/LHQcJkeFoRLNULdn7?g_st=ipc"
+                             target="_blank"
+                             class="text-blue-600 dark:text-blue-400 hover:underline"
+                        >Google Maps</a><br>
+                        👉 <a href="https://waze.com/ul/hd1u0x13d1"
+                             target="_blank"
+                             class="text-blue-600 dark:text-blue-400 hover:underline"
+                        >Waze</a>
+                    </p>
+                </div>
+
+                {{-- Imagen + Video --}}
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    {{-- Imagen --}}
+                    <div class="flex justify-center">
+                        <img src="{{ asset('img/actividades.jpg') }}"
+                             alt="Día Internacional de las Personas Sordas"
+                             class="rounded-lg shadow-lg w-full max-w-2xl object-cover"
+                        >
+                    </div>
+
+                    {{-- Video --}}
+                    <div class="flex justify-center">
+                        <video controls
+                               class="rounded-lg shadow-lg w-full max-h-[500px]"
+                        >
+                            <source src="{{ asset('video/anascor.mp4') }}"
+                                    type="video/mp4"
+                            >
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="border border-gray-200 mb-8"></hr>
+
+
+
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-20">
+                <h2 class="mb-6 text-4xl lg:text-6xl font-extrabold text-gray-900 dark:text-white">
+                    Charlas
+                </h2>
+                <p class="max-w-3xl mx-auto text-lg text-gray-700 dark:text-gray-300 mb-10">
+                    Del <strong>domingo 21 al jueves 25 de septiembre</strong> compartimos un video cada día.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 text-center">
+                    {{-- Domingo --}}
+                    <div>
+                        <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            Domingo 21 de septiembre de 2025<br> Tema: Historia de ANASCOR
+                        </h3>
+                        <div class="aspect-video">
+                            <iframe
+                                    src="https://www.youtube.com/embed/nKxQr0b07G4?si=TIq23EKOo8uMr1ND"
+                                    class="w-full h-full rounded-lg shadow-lg"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    {{-- Lunes --}}
+                    <div>
+                        <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            Lunes 22 de septiembre de 2025<br> Tema: Cultura Sorda, Aliado en movimiento
+                        </h3>
+                        <div class="aspect-video">
+                            <iframe
+                                    src="https://www.youtube.com/embed/K8laUWqkYhY?si=I6pqVI1Nc_K1m5ut"
+                                    class="w-full h-full rounded-lg shadow-lg"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    {{-- Martes (aún no disponible) --}}
+                    <div>
+                        <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            Martes 23 <br> Tema: Accesibilidad y Derechos
+                        </h3>
+                        <div class="flex items-center justify-center aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg shadow-lg">
+                            <span class="text-gray-600 dark:text-gray-300">Disponible el 23 de septiembre</span>
+                        </div>
+                    </div>
+
+                    {{-- Miércoles (aún no disponible) --}}
+                    <div>
+                        <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            Miércoles 24 <br> Tema: Cultura Sorda
+                        </h3>
+                        <div class="flex items-center justify-center aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg shadow-lg">
+                            <span class="text-gray-600 dark:text-gray-300">Disponible el 24 de septiembre</span>
+                        </div>
+                    </div>
+
+                    {{-- Jueves (aún no disponible) --}}
+                    <div class="sm:col-span-2"> {{-- Ocupa toda la fila --}}
+                        <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            Jueves 25 <br> Tema: Futuro de la Comunidad
+                        </h3>
+                        <div class="flex items-center justify-center aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg shadow-lg">
+                            <span class="text-gray-600 dark:text-gray-300">Disponible el 25 de septiembre</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <hr class="border border-gray-200 mb-8"></hr>
         <section class="bg-white dark:bg-gray-900">
             <h2 class="mb-8 text-4xl lg:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">
                 Actividades
@@ -216,7 +361,7 @@
                                    target="_blank"
                                 >A post shared by ANASCOR Costa Rica (@anascor74)</a></p></div>
                     </blockquote>
-                   
+
                 </div>
 
                 <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden">
