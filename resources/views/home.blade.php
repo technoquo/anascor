@@ -193,6 +193,55 @@
                 </div>
             </div>
         </section>
+       <!---aqui -->
+        <section class="bg-gray-100 dark:bg-gray-800">
+            <div class="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-20">
+                <div class="max-w-3xl mx-auto text-lg text-gray-700 dark:text-gray-300 space-y-4 mb-10">
+                    <p>📣 <strong>¡Hola a todos!</strong></p>
+                    <p>
+                        Este <strong>sábado 27 de septiembre</strong> tendremos invitados muy especiales de la
+                        <strong>Asociación de Sordos de Guanacaste 🤟</strong> en <strong>ANASCOR</strong>.
+                    </p>
+                    <p>⏰ A partir de las <strong>3:00 p.m.</strong> podrás disfrutar de:</p>
+                    <ul class="list-disc list-inside text-left">
+                        <li>🍲 Degustación de comida guanacasteca</li>
+                        <li>💬 Una pequeña charla sobre la Asociación de Sordos de Guanacaste</li>
+                        <li>🎲 Espacios de interacción y actividades compartidas</li>
+                    </ul>
+                    <p>🙌 ¡Vení a disfrutar con nosotros y celebremos juntos esta experiencia cultural y comunitaria!</p>
+
+                    <p class="font-semibold">📍Ubicación:</p>
+                    <p>
+                        👉 <a href="https://maps.app.goo.gl/LHQcJkeFoRLNULdn7?g_st=ipc"
+                             target="_blank"
+                             class="text-blue-600 dark:text-blue-400 hover:underline"
+                        >Google Maps</a><br>
+                        👉 <a href="https://waze.com/ul/hd1u0x13d1"
+                             target="_blank"
+                             class="text-blue-600 dark:text-blue-400 hover:underline"
+                        >Waze</a>
+                    </p>
+                </div>
+
+
+
+
+                    {{-- Video --}}
+                    <div class="flex justify-center">
+                        <video controls
+                               class="rounded-lg shadow-lg w-500 max-h-[500px]"
+                        >
+                            <source src="{{ asset('video/guanacaste.mp4') }}"
+                                    type="video/mp4"
+                            >
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+
+            </div>
+        </section>
+
+      <!-- fin aqui -->
         <hr class="border border-gray-200 mb-8"></hr>
 
 
@@ -242,27 +291,39 @@
                     {{-- Martes (aún no disponible) --}}
                     <div>
                         <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
-                            Martes 23 <br> Tema: Accesibilidad y Derechos
+                            Martes 23 de septiembre de 2025 <br> Tema: Acceso a la información: un derecho, no un favor
                         </h3>
-                        <div class="flex items-center justify-center aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg shadow-lg">
-                            <span class="text-gray-600 dark:text-gray-300">Disponible el 23 de septiembre</span>
+                        <div class="aspect-video">
+                            <iframe
+                                    src="https://www.youtube.com/embed/0i6c4zO4LP0?si=TRLXdWnje4hlYNLf"
+                                    class="w-full h-full rounded-lg shadow-lg"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
 
                     {{-- Miércoles (aún no disponible) --}}
                     <div>
                         <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
-                            Miércoles 24 <br> Tema: Cultura Sorda
+                            Miércoles 24  de septiembre de 2025<br> Tema: Espacio para sordos (Deaf Space) y ritmo de la persona sorda
                         </h3>
-                        <div class="flex items-center justify-center aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg shadow-lg">
-                            <span class="text-gray-600 dark:text-gray-300">Disponible el 24 de septiembre</span>
+                        <div class="aspect-video">
+                            <iframe
+                                    src="https://www.youtube.com/embed/GeJD1jdMnCk"
+                                    class="w-full h-full rounded-lg shadow-lg"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
 
                     {{-- Jueves (aún no disponible) --}}
                     <div class="sm:col-span-2"> {{-- Ocupa toda la fila --}}
                         <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
-                            Jueves 25 <br> Tema: Futuro de la Comunidad
+                            Jueves 25 de septiembre de 2025 <br> Tema: Derecho humano, De la Historia al orgullo: La Bandera Sorda como Símbolo Global
                         </h3>
                         <div class="flex items-center justify-center aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg shadow-lg">
                             <span class="text-gray-600 dark:text-gray-300">Disponible el 25 de septiembre</span>
