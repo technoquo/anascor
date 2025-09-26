@@ -325,8 +325,14 @@
                         <h3 class="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
                             Jueves 25 de septiembre de 2025 <br> Tema: Derecho humano, De la Historia al orgullo: La Bandera Sorda como Símbolo Global
                         </h3>
-                        <div class="flex items-center justify-center aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg shadow-lg">
-                            <span class="text-gray-600 dark:text-gray-300">Disponible el 25 de septiembre</span>
+                        <div class="aspect-video">
+                        <iframe
+                                src="https://www.youtube.com/embed/hLEVr4d_mbQ"
+                                class="w-full h-full rounded-lg shadow-lg"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                        </iframe>
                         </div>
                     </div>
                 </div>
